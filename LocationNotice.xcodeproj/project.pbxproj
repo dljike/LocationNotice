@@ -15,6 +15,7 @@
 		04D200B91D18E58000CDB9E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D200B71D18E58000CDB9E7 /* LaunchScreen.storyboard */; };
 		04D200C41D18E58000CDB9E7 /* LocationNoticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D200C31D18E58000CDB9E7 /* LocationNoticeTests.m */; };
 		04D200CF1D18E58000CDB9E7 /* LocationNoticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D200CE1D18E58000CDB9E7 /* LocationNoticeUITests.m */; };
+		04D200DE1D18EC2F00CDB9E7 /* UtilNotif.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D200DD1D18EC2F00CDB9E7 /* UtilNotif.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		04D200CA1D18E58000CDB9E7 /* LocationNoticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationNoticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D200CE1D18E58000CDB9E7 /* LocationNoticeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationNoticeUITests.m; sourceTree = "<group>"; };
 		04D200D01D18E58000CDB9E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D200DC1D18EC2F00CDB9E7 /* UtilNotif.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilNotif.h; sourceTree = "<group>"; };
+		04D200DD1D18EC2F00CDB9E7 /* UtilNotif.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilNotif.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				04D200B71D18E58000CDB9E7 /* LaunchScreen.storyboard */,
 				04D200BA1D18E58000CDB9E7 /* Info.plist */,
 				04D200A91D18E58000CDB9E7 /* Supporting Files */,
+				04D200DC1D18EC2F00CDB9E7 /* UtilNotif.h */,
+				04D200DD1D18EC2F00CDB9E7 /* UtilNotif.m */,
 			);
 			path = LocationNotice;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D200DE1D18EC2F00CDB9E7 /* UtilNotif.m in Sources */,
 				04D200B11D18E58000CDB9E7 /* ViewController.m in Sources */,
 				04D200AE1D18E58000CDB9E7 /* AppDelegate.m in Sources */,
 				04D200AB1D18E58000CDB9E7 /* main.m in Sources */,

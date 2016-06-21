@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "UtilNotif.h"
+
 @interface ViewController ()
 
 @end
@@ -16,12 +18,34 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+   
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    button.backgroundColor = [UIColor redColor];
+    [button addTarget:self action:@selector(buttonAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+    
+    
+    [UtilNotif registAction];
+    
 }
+
+-(void)buttonAction
+{
+  [UtilNotif sendMess:5 body:@"大家好" noticeStr:@"欢迎光临"];
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+
+
+
+
+
 
 @end

@@ -10,6 +10,6 @@
 
 @interface ViewController : UIViewController
 
-
++ (void)cancelLocalNotificationWithKey:(NSString *)key;
 @end
 
